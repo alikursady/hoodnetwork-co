@@ -1,27 +1,27 @@
 ---
-title: "City Notes: Building Belonging in Motion"
+title: "Sehirde Aidiyet Kurmak: Hareketin Icinde Bag Kurmak"
 date: "2025-12-12"
-slug: "city-notes-building-belonging-in-motion"
-excerpt: "A reflection on community life in modern cities and how intentional spaces can turn movement into connection."
+slug: "sehirde-aidiyet-kurmak"
+excerpt: "Modern sehir hayatinda niyetli bulusmalarin insanlari nasil gercek baglara tasidigina dair bir not."
 coverImage: "/images/posts/mobile-first-checklist.svg"
-tags: ["city-life", "stories", "community"]
+tags: ["sehir-hayati", "hikayeler", "topluluk"]
 featured: false
 ---
 
-Cities move fast. People move even faster. Yet most of us are still looking for the same thing: a place where we feel known.
+Sehirler hizli, insanlar daha da hizli. Ama cogumuzun aradigi sey ayni: kendimizi ait hissettigimiz bir cevre.
 
-## The challenge
+## Zorluk
 
-Urban life creates endless proximity but limited connection. We see many people, but rarely meet the right ones in the right context.
+Sehir hayati herkesi birbirine yaklastiriyor ama bag kurmayi garanti etmiyor. Cok insan goruyoruz, fakat dogru kisilerle dogru baglamda az tanisiyoruz.
 
-## The opportunity
+## Firsat
 
-Intentional gatherings can change that rhythm. A single thoughtful evening can create friendships, collaborations, and a stronger sense of belonging in your own city.
+Niyetli bulusmalar bu ritmi degistirebilir. Iyi dusunulmus tek bir aksam bile yeni dostluklara, ortak fikirlere ve sehirde daha guclu bir aidiyet hissine donusebilir.
 
-## What Hood Network is exploring
+## Hood Network neyin pesinde?
 
-We are building social experiences where quality matters more than scale. Smaller circles, better conversations, and local culture that feels alive again.
+Biz, olcekten cok niteligin onemli oldugu sosyal deneyimler kuruyoruz: daha kucuk cevreler, daha iyi sohbetler ve yeniden canlanan yerel kultur.
 
-## A simple idea
+## Basit bir fikir
 
-If people leave an event feeling more grounded, more inspired, and more connected, that is progress worth repeating.
+Insanlar bir bulusmadan daha iyi hislerle, daha cok ilhamla ve daha guclu baglarla ayriliyorsa, bu tekrar etmeye deger bir ilerlemedir.

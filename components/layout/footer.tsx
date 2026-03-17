@@ -10,10 +10,10 @@ export function Footer() {
           <div>
             <p className="font-medium text-textPrimary">{siteConfig.name}</p>
             <p className="mt-2 max-w-md text-xs leading-relaxed text-textMuted">
-              A warm community for meeting great people, joining meaningful gatherings, and sharing
-              real moments together.
+              Harika insanlarla tanisabilecegin, anlamli bulusmalara katilabilecegin ve birlikte
+              gercek anilar biriktirebilecegin sicak bir topluluk.
             </p>
-            <p className="mt-3 text-xs">© {new Date().getFullYear()} All rights reserved.</p>
+            <p className="mt-3 text-xs">© {new Date().getFullYear()} Tum haklari saklidir.</p>
           </div>
           <div className="flex items-center gap-5 text-xs">
             <Link href={siteConfig.social.github} target="_blank" className="hover:text-textPrimary">

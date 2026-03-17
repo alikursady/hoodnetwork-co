@@ -18,7 +18,7 @@ function ensurePostsDirectory() {
 
 function parseFrontmatter(data: Partial<PostFrontmatter>): PostFrontmatter {
   return {
-    title: data.title ?? "Untitled Post",
+    title: data.title ?? "Basliksiz yazi",
     date: data.date ?? new Date().toISOString(),
     slug: data.slug ?? "",
     excerpt: data.excerpt ?? "",
@@ -41,7 +41,7 @@ export function getAllPosts(): Post[] {
       ...frontmatter,
       tags: frontmatter.tags.map(normalizeTag),
       content,
-      readingTime: readingTime(content).text
+      readingTime: `${Math.max(1, Math.round(readingTime(content).minutes))} dk okuma`
     };
   });
 

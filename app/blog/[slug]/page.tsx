@@ -30,7 +30,7 @@ export async function generateMetadata({
 
   if (!post) {
     return {
-      title: "Post not found"
+      title: "Yazi bulunamadi"
     };
   }
 
@@ -71,7 +71,7 @@ export default function PostPage({ params }: { params: PageParams }) {
     <Container>
       <article className="mx-auto max-w-proseWide py-10 sm:py-14">
         <Link href="/blog" className="text-sm text-accent hover:text-textPrimary">
-          ← Back to blog
+          ← Yazilara don
         </Link>
 
         <header className="mt-6 space-y-4">
@@ -117,30 +117,30 @@ export default function PostPage({ params }: { params: PageParams }) {
 
       <section className="mx-auto grid max-w-proseWide grid-cols-1 gap-4 border-t border-border py-10 sm:grid-cols-2">
         <div className="rounded-xl border border-border bg-surface p-4">
-          <p className="text-xs uppercase tracking-[0.14em] text-textMuted">Previous</p>
+          <p className="text-xs uppercase tracking-[0.14em] text-textMuted">Onceki</p>
           {previous ? (
             <Link href={`/blog/${previous.slug}`} className="mt-2 block font-medium hover:text-accent">
               {previous.title}
             </Link>
           ) : (
-            <p className="mt-2 text-sm text-textMuted">No older post</p>
+            <p className="mt-2 text-sm text-textMuted">Daha eski yazi yok</p>
           )}
         </div>
         <div className="rounded-xl border border-border bg-surface p-4">
-          <p className="text-xs uppercase tracking-[0.14em] text-textMuted">Next</p>
+          <p className="text-xs uppercase tracking-[0.14em] text-textMuted">Sonraki</p>
           {next ? (
             <Link href={`/blog/${next.slug}`} className="mt-2 block font-medium hover:text-accent">
               {next.title}
             </Link>
           ) : (
-            <p className="mt-2 text-sm text-textMuted">No newer post</p>
+            <p className="mt-2 text-sm text-textMuted">Daha yeni yazi yok</p>
           )}
         </div>
       </section>
 
       {relatedPosts.length > 0 ? (
         <section className="pb-16 sm:pb-20">
-          <h2 className="mb-6 text-2xl font-semibold text-textPrimary">Related posts</h2>
+          <h2 className="mb-6 text-2xl font-semibold text-textPrimary">Benzer yazilar</h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {relatedPosts.map((relatedPost) => (
               <PostCard key={relatedPost.slug} post={relatedPost} />

@@ -1,31 +1,31 @@
 ---
-title: "After the Gathering: What Makes People Return"
+title: "Bir Bulusmadan Sonra Insanlari Geri Getiren Sey Ne?"
 date: "2026-02-18"
-slug: "after-the-gathering-what-makes-people-return"
-excerpt: "A short reflection on trust, atmosphere, and why intentional communities grow through repeat experiences."
+slug: "bulusmadan-sonra-insanlari-geri-getiren-sey"
+excerpt: "Guven, ortam ve tekrar eden deneyimlerin toplulugu nasil buyuttuguna dair kisa bir not."
 coverImage: "/images/posts/shipping-quality.svg"
-tags: ["community", "gatherings", "belonging"]
+tags: ["topluluk", "bulusmalar", "aidiyet"]
 featured: true
 ---
 
-The strongest communities are rarely built from one big moment. They grow from many small moments that feel considered.
+En guclu topluluklar tek bir buyuk andan dogmaz. Dikkatle kurulan kucuk anlarin birikimiyle buyur.
 
-## What people remember most
+## Insanlar neyi hatirliyor?
 
-After an event, people usually mention three things:
+Bir bulusmadan sonra insanlar genelde su uc seyi anlatiyor:
 
-- who they actually connected with
-- how easy it felt to belong in the room
-- whether the conversation had real depth
+- kiminle gercekten bag kurduklari
+- ortamda kendilerini ne kadar rahat hissettikleri
+- sohbetlerin ne kadar derine inebildigi
 
-That is why Hood Network focuses less on volume and more on curation.
+Bu nedenle Hood Network'te sayidan cok kaliteye odaklaniyoruz.
 
-## The value of intentional energy
+## Niyetli bir ortam neden degerli?
 
-When gatherings are intentional, the energy is different. People arrive with context, not just curiosity. That context creates better introductions and fewer shallow interactions.
+Bulusmalar niyetli oldugunda enerji degisiyor. Insanlar sadece merakla degil, baglamla geliyor. Bu da daha iyi tanismalar ve daha az yuzeysel etkilesim demek.
 
-## What we are learning
+## Ne ogreniyoruz?
 
-We are learning that meaningful social connection is not random. It comes from thoughtful hosting, shared values, and repeated trust over time.
+Anlamli sosyal baglarin sansla olusmadigini her gecen gun daha net goruyoruz. Dikkatli ev sahipligi, ortak degerler ve zamanla kurulan guven belirleyici oluyor.
 
-That is the kind of community Hood Network is here to build.
+Hood Network tam olarak boyle bir topluluk kurmak icin var.

@@ -1,31 +1,31 @@
 ---
-title: "Curated Does Not Mean Closed"
+title: "Secili Olmak Kapali Olmak Degildir"
 date: "2026-01-30"
-slug: "curated-does-not-mean-closed"
-excerpt: "How selective communities can stay open-hearted while protecting quality, safety, and trust."
+slug: "secili-olmak-kapali-olmak-degildir"
+excerpt: "Nitelikli bir toplulugun, guvenli ve samimi kalirken nasil acik olabilecegine dair bir bakis."
 coverImage: "/images/posts/design-system-decisions.svg"
-tags: ["culture", "community", "trust"]
+tags: ["kultur", "topluluk", "guven"]
 featured: true
 ---
 
-Some people hear "curated" and assume exclusion. For us, curation means care.
+Bazi insanlar "secili" dendiginde dislayici bir yapi hayal ediyor. Bizim icin secicilik, ozen gostermek demek.
 
-## Why curation matters
+## Secicilik neden onemli?
 
-A meaningful social space needs a clear tone. Without it, events become noisy and people leave without real connection.
+Anlamli bir sosyal ortam net bir tona ihtiyac duyar. Bu olmadiginda bulusmalar dagilir ve insanlar gercek bir bag kuramadan ayrilir.
 
-Curating the room helps everyone:
+Ortami ozenle kurmak herkese fayda saglar:
 
-- conversations go deeper
-- introductions feel more relevant
-- people feel safer and more seen
+- sohbetler derinlesir
+- tanismalar daha dogru olur
+- insanlar kendini daha guvende ve gorulmus hisseder
 
-## Openness with intention
+## Niyetle acik olmak
 
-Hood Network is not a private club. It is a guided community where values matter: curiosity, respect, and presence.
+Hood Network kapali bir kulup degil. Merak, saygi ve varlik gostermenin onemli oldugu, yonu belli bir topluluk.
 
-## A better social default
+## Daha iyi bir sosyal standart
 
-If we want healthier social culture, we need healthier defaults. Intentional curation is one of those defaults.
+Daha saglikli bir sosyal kultur istiyorsak, daha iyi varsayimlara ihtiyacimiz var. Niyetli secicilik bu varsayimlardan biri.
 
-It protects quality while still inviting new people in.
+Bu yaklasim kaliteyi korurken yeni insanlara da yer aciyor.

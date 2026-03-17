@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "Hood Network",
   shortName: "Hood Network",
-  title: "Hood Network - Friendship, gatherings, and community stories",
+  title: "Hood Network - Dostluklar, buluşmalar ve topluluk hikayeleri",
   description:
-    "A warm community space for meeting the right people, joining meaningful gatherings, and building real friendships.",
+    "Doğru insanlarla tanışmak, anlamlı buluşmalara katılmak ve gerçek dostluklar kurmak için sıcak bir topluluk alanı.",
   url: "https://hoodnetwork.co",
   author: "Hood Network",
   email: "hello@hoodnetwork.co",
@@ -15,7 +15,7 @@ export const siteConfig = {
 } as const;
 
 export const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/blog", label: "Blog" },
-  { href: "/about", label: "About" }
+  { href: "/", label: "Ana Sayfa" },
+  { href: "/blog", label: "Yazılar" },
+  { href: "/about", label: "Hakkımızda" }
 ] as const;

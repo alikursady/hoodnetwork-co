@@ -19,7 +19,7 @@ export function Header() {
             {siteConfig.shortName}
           </Link>
 
-          <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
+          <nav className="hidden items-center gap-8 md:flex" aria-label="Ana menu">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -39,14 +39,14 @@ export function Header() {
             onClick={() => setOpen((prev) => !prev)}
             aria-expanded={open}
             aria-controls="mobile-nav"
-            aria-label="Toggle navigation menu"
+            aria-label="Gezinme menusunu ac veya kapat"
           >
             Menu
           </button>
         </div>
 
         {open ? (
-          <nav id="mobile-nav" className="border-t border-border bg-surface py-3 md:hidden" aria-label="Mobile">
+          <nav id="mobile-nav" className="border-t border-border bg-surface py-3 md:hidden" aria-label="Mobil menu">
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
