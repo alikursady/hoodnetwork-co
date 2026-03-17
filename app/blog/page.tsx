@@ -5,7 +5,7 @@ import { getAllPosts, getAllTags } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Community stories, event recaps, and thoughtful writing from Hood Network."
+  description: "Stories, recaps, and updates from the Hood Network community."
 };
 
 export default function BlogPage() {
@@ -17,7 +17,8 @@ export default function BlogPage() {
       <section className="py-12 sm:py-14">
         <h1 className="text-3xl font-semibold tracking-tight text-textPrimary sm:text-4xl">Blog</h1>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-textMuted sm:text-base">
-          An editorial archive of community updates, social reflections, and curated culture notes.
+          Stories, event recaps, and updates from people building real connection through Hood
+          Network.
         </p>
       </section>
 

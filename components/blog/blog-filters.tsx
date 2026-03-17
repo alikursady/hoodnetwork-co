@@ -31,14 +31,14 @@ export function BlogFilters({ posts, tags }: BlogFiltersProps) {
     <section className="space-y-6">
       <div className="space-y-4 rounded-2xl border border-border bg-surface p-4 sm:p-5">
         <label htmlFor="search" className="block text-sm font-medium text-textPrimary">
-          Search the journal
+          Search stories
         </label>
         <input
           id="search"
           type="text"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search by story, topic, or tag"
+          placeholder="Search by topic, event, or tag"
           className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-textPrimary outline-none transition focus:border-accent"
         />
 
@@ -75,7 +75,7 @@ export function BlogFilters({ posts, tags }: BlogFiltersProps) {
         <div className="rounded-2xl border border-dashed border-border bg-surface p-8 text-center">
           <h2 className="text-lg font-semibold text-textPrimary">No posts found</h2>
           <p className="mt-2 text-sm text-textMuted">
-            Try a different search or tag to browse more community writing.
+            Try a different search or tag to find more stories from the community.
           </p>
         </div>
       ) : (

@@ -10,8 +10,8 @@ export function Footer() {
           <div>
             <p className="font-medium text-textPrimary">{siteConfig.name}</p>
             <p className="mt-2 max-w-md text-xs leading-relaxed text-textMuted">
-              A calm editorial space for community stories, event recaps, and thoughtful updates
-              from Hood Network.
+              A warm community for meeting great people, joining meaningful gatherings, and sharing
+              real moments together.
             </p>
             <p className="mt-3 text-xs">© {new Date().getFullYear()} All rights reserved.</p>
           </div>

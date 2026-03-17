@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "Hood Network",
   shortName: "Hood Network",
-  title: "Hood Network - Community stories, gatherings, and ideas",
+  title: "Hood Network - Friendship, gatherings, and community stories",
   description:
-    "A curated community and editorial platform focused on meaningful social connection, gatherings, and thoughtful local culture.",
+    "A warm community space for meeting the right people, joining meaningful gatherings, and building real friendships.",
   url: "https://hoodnetwork.co",
   author: "Hood Network",
   email: "hello@hoodnetwork.co",

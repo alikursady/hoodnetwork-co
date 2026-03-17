@@ -10,7 +10,7 @@ type PostCardProps = {
 
 export function PostCard({ post }: PostCardProps) {
   return (
-    <article className="group overflow-hidden rounded-2xl border border-border bg-surface shadow-soft transition duration-300 ease-smooth hover:-translate-y-1 hover:border-accentSoft">
+    <article className="group overflow-hidden rounded-2xl border border-border/80 bg-surface/90 shadow-soft transition duration-300 ease-smooth hover:-translate-y-1 hover:border-accentSoft">
       <Link href={`/blog/${post.slug}`} className="block">
         <div className="relative aspect-[16/9] overflow-hidden">
           <Image
