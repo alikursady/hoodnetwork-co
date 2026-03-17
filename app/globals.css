@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply border-border;
+}
+
+html,
+body {
+  @apply bg-background text-textPrimary antialiased;
+}
+
+body {
+  @apply min-h-screen;
+}
+
+a {
+  @apply transition duration-300 ease-smooth;
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.prose :where(h1, h2, h3, h4) {
+  @apply mt-10 text-textPrimary;
+}
+
+.prose :where(p, li, blockquote) {
+  @apply leading-8 text-textMuted;
+}
+
+.prose a {
+  @apply text-accent underline decoration-accentSoft underline-offset-4 hover:text-textPrimary;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-accentSoft bg-surface px-4 py-2 italic;
+}
+
+.prose pre {
+  @apply overflow-x-auto rounded-xl border border-border bg-surface p-4;
+}
+
+.prose code {
+  @apply rounded bg-surface px-1 py-0.5 text-sm text-textPrimary;
+}
