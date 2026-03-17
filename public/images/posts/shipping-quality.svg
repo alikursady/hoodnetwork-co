@@ -1,0 +1,9 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0B0D10"/>
+  <rect x="100" y="100" width="1400" height="700" rx="30" fill="#11151A" stroke="#222934"/>
+  <rect x="200" y="220" width="760" height="28" rx="8" fill="#7C9CFF"/>
+  <rect x="200" y="280" width="1020" height="20" rx="8" fill="#2D3F73"/>
+  <rect x="200" y="328" width="960" height="20" rx="8" fill="#2D3F73"/>
+  <rect x="200" y="376" width="840" height="20" rx="8" fill="#2D3F73"/>
+  <text x="200" y="650" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="56">Shipping Quality in Small Steps</text>
+</svg>

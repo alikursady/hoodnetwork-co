@@ -1,0 +1,14 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0B0D10"/>
+  <rect x="100" y="100" width="1400" height="700" rx="30" fill="#11151A" stroke="#222934"/>
+  <rect x="260" y="180" width="260" height="520" rx="36" fill="#161B21" stroke="#7C9CFF"/>
+  <circle cx="390" cy="230" r="12" fill="#2D3F73"/>
+  <rect x="300" y="280" width="180" height="20" rx="8" fill="#7C9CFF"/>
+  <rect x="300" y="330" width="160" height="16" rx="8" fill="#2D3F73"/>
+  <rect x="300" y="370" width="170" height="16" rx="8" fill="#2D3F73"/>
+  <rect x="300" y="410" width="150" height="16" rx="8" fill="#2D3F73"/>
+  <rect x="620" y="220" width="680" height="24" rx="8" fill="#7C9CFF"/>
+  <rect x="620" y="274" width="520" height="18" rx="8" fill="#2D3F73"/>
+  <rect x="620" y="320" width="620" height="18" rx="8" fill="#2D3F73"/>
+  <text x="620" y="680" fill="#F5F7FB" font-family="Arial, sans-serif" font-size="50">A Mobile-First UI Checklist</text>
+</svg>
