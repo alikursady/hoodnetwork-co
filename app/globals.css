@@ -19,16 +19,28 @@ a {
   @apply transition duration-300 ease-smooth;
 }
 
+::selection {
+  @apply bg-accentSoft text-textPrimary;
+}
+
 .prose {
   @apply max-w-none;
 }
 
 .prose :where(h1, h2, h3, h4) {
-  @apply mt-10 text-textPrimary;
+  @apply mt-10 tracking-tight text-textPrimary;
 }
 
 .prose :where(p, li, blockquote) {
   @apply leading-8 text-textMuted;
+}
+
+.prose :where(h2) {
+  @apply text-2xl;
+}
+
+.prose :where(h3) {
+  @apply text-xl;
 }
 
 .prose a {

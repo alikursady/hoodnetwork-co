@@ -5,7 +5,7 @@ import { getAllPosts, getAllTags } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "All articles sorted by date with search and tag filtering."
+  description: "Community stories, event recaps, and thoughtful writing from Hood Network."
 };
 
 export default function BlogPage() {
@@ -17,7 +17,7 @@ export default function BlogPage() {
       <section className="py-12 sm:py-14">
         <h1 className="text-3xl font-semibold tracking-tight text-textPrimary sm:text-4xl">Blog</h1>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-textMuted sm:text-base">
-          Browse all posts. Filter by tag or search quickly to find a specific article.
+          An editorial archive of community updates, social reflections, and curated culture notes.
         </p>
       </section>
 

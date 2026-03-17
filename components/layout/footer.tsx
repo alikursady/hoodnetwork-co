@@ -6,11 +6,16 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-background">
       <Container>
-        <div className="flex flex-col gap-4 py-10 text-sm text-textMuted sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
-          </p>
-          <div className="flex items-center gap-5">
+        <div className="flex flex-col gap-5 py-10 text-sm text-textMuted sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="font-medium text-textPrimary">{siteConfig.name}</p>
+            <p className="mt-2 max-w-md text-xs leading-relaxed text-textMuted">
+              A calm editorial space for community stories, event recaps, and thoughtful updates
+              from Hood Network.
+            </p>
+            <p className="mt-3 text-xs">© {new Date().getFullYear()} All rights reserved.</p>
+          </div>
+          <div className="flex items-center gap-5 text-xs">
             <Link href={siteConfig.social.github} target="_blank" className="hover:text-textPrimary">
               GitHub
             </Link>

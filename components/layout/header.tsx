@@ -2,17 +2,20 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { navLinks, siteConfig } from "@/lib/site-config";
 import { Container } from "@/components/ui/container";
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-background/90 backdrop-blur">
       <Container>
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="text-base font-semibold tracking-tight text-textPrimary">
+          <Link href="/" className="inline-flex items-center text-base font-semibold tracking-tight text-textPrimary">
+            <span className="mr-2 h-2 w-2 rounded-full bg-accent" aria-hidden />
             {siteConfig.shortName}
           </Link>
 
@@ -21,7 +24,9 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm text-textMuted transition hover:text-textPrimary"
+                className={`text-sm transition hover:text-textPrimary ${
+                  pathname === link.href ? "text-textPrimary" : "text-textMuted"
+                }`}
               >
                 {link.label}
               </Link>
@@ -41,13 +46,15 @@ export function Header() {
         </div>
 
         {open ? (
-          <nav id="mobile-nav" className="border-t border-border py-3 md:hidden" aria-label="Mobile">
+          <nav id="mobile-nav" className="border-t border-border bg-surface py-3 md:hidden" aria-label="Mobile">
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="block rounded-lg px-3 py-2 text-sm text-textMuted transition hover:bg-surface hover:text-textPrimary"
+                    className={`block rounded-lg px-3 py-2 text-sm transition hover:bg-background hover:text-textPrimary ${
+                      pathname === link.href ? "bg-background text-textPrimary" : "text-textMuted"
+                    }`}
                     onClick={() => setOpen(false)}
                   >
                     {link.label}

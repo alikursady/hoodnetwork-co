@@ -75,9 +75,10 @@ export default function PostPage({ params }: { params: PageParams }) {
         </Link>
 
         <header className="mt-6 space-y-4">
-          <h1 className="text-3xl font-semibold leading-tight text-textPrimary sm:text-4xl">
+          <h1 className="text-3xl font-semibold leading-tight text-textPrimary sm:text-4xl md:text-[2.8rem]">
             {post.title}
           </h1>
+          <p className="max-w-2xl text-sm leading-relaxed text-textMuted sm:text-base">{post.excerpt}</p>
           <div className="flex flex-wrap items-center gap-2 text-sm text-textMuted">
             <time dateTime={post.date}>{formatDate(post.date)}</time>
             <span aria-hidden>•</span>
@@ -101,7 +102,7 @@ export default function PostPage({ params }: { params: PageParams }) {
           />
         </div>
 
-        <div className="prose prose-invert mt-10">
+        <div className="prose prose-invert mt-10 text-[1.02rem]">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             rehypePlugins={[
@@ -116,7 +117,7 @@ export default function PostPage({ params }: { params: PageParams }) {
 
       <section className="mx-auto grid max-w-proseWide grid-cols-1 gap-4 border-t border-border py-10 sm:grid-cols-2">
         <div className="rounded-xl border border-border bg-surface p-4">
-          <p className="text-xs uppercase tracking-wide text-textMuted">Previous</p>
+          <p className="text-xs uppercase tracking-[0.14em] text-textMuted">Previous</p>
           {previous ? (
             <Link href={`/blog/${previous.slug}`} className="mt-2 block font-medium hover:text-accent">
               {previous.title}
@@ -126,7 +127,7 @@ export default function PostPage({ params }: { params: PageParams }) {
           )}
         </div>
         <div className="rounded-xl border border-border bg-surface p-4">
-          <p className="text-xs uppercase tracking-wide text-textMuted">Next</p>
+          <p className="text-xs uppercase tracking-[0.14em] text-textMuted">Next</p>
           {next ? (
             <Link href={`/blog/${next.slug}`} className="mt-2 block font-medium hover:text-accent">
               {next.title}

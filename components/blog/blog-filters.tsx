@@ -31,14 +31,14 @@ export function BlogFilters({ posts, tags }: BlogFiltersProps) {
     <section className="space-y-6">
       <div className="space-y-4 rounded-2xl border border-border bg-surface p-4 sm:p-5">
         <label htmlFor="search" className="block text-sm font-medium text-textPrimary">
-          Search posts
+          Search the journal
         </label>
         <input
           id="search"
           type="text"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search by title, excerpt, or tag"
+          placeholder="Search by story, topic, or tag"
           className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-textPrimary outline-none transition focus:border-accent"
         />
 
@@ -52,7 +52,7 @@ export function BlogFilters({ posts, tags }: BlogFiltersProps) {
                 : "border-border text-textMuted hover:border-accentSoft hover:text-textPrimary"
             }`}
           >
-            all
+            all topics
           </button>
           {tags.map((tag) => (
             <button
@@ -75,7 +75,7 @@ export function BlogFilters({ posts, tags }: BlogFiltersProps) {
         <div className="rounded-2xl border border-dashed border-border bg-surface p-8 text-center">
           <h2 className="text-lg font-semibold text-textPrimary">No posts found</h2>
           <p className="mt-2 text-sm text-textMuted">
-            Try a different search or tag. New markdown posts will appear here automatically.
+            Try a different search or tag to browse more community writing.
           </p>
         </div>
       ) : (

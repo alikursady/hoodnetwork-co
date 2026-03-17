@@ -23,20 +23,22 @@ export function PostCard({ post }: PostCardProps) {
         </div>
       </Link>
 
-      <div className="space-y-4 p-5">
+      <div className="space-y-4 p-5 sm:p-6">
         <div className="flex flex-wrap items-center gap-2 text-xs text-textMuted">
           <time dateTime={post.date}>{formatDate(post.date)}</time>
           <span aria-hidden>•</span>
           <span>{post.readingTime}</span>
         </div>
 
-        <h3 className="text-lg font-semibold text-textPrimary md:text-xl">
+        <h3 className="text-lg font-semibold leading-snug text-textPrimary md:text-xl">
           <Link href={`/blog/${post.slug}`} className="hover:text-accent">
             {post.title}
           </Link>
         </h3>
 
-        <p className="line-clamp-3 text-sm leading-relaxed text-textMuted">{post.excerpt}</p>
+        <p className="line-clamp-3 text-sm leading-relaxed text-textMuted sm:text-[0.95rem]">
+          {post.excerpt}
+        </p>
 
         <div className="flex flex-wrap gap-2">
           {post.tags.slice(0, 3).map((tag) => (

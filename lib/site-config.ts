@@ -1,18 +1,17 @@
 export const siteConfig = {
-  name: "Nocturne Journal",
-  shortName: "Nocturne",
-  title: "Nocturne Journal - Notes on design, code, and craft",
+  name: "Hood Network",
+  shortName: "Hood Network",
+  title: "Hood Network - Community stories, gatherings, and ideas",
   description:
-    "A minimalist personal blog about engineering, product thinking, and building for the web.",
-  url: "https://example.com",
-  author: "Your Name",
-  email: "hello@example.com",
+    "A curated community and editorial platform focused on meaningful social connection, gatherings, and thoughtful local culture.",
+  url: "https://hoodnetwork.co",
+  author: "Hood Network",
+  email: "hello@hoodnetwork.co",
   social: {
-    github: "https://github.com/your-username",
-    x: "https://x.com/your-username",
-    linkedin: "https://linkedin.com/in/your-username"
-  },
-  brandHint: "Replace with Hood Network branding when ready."
+    github: "https://github.com/hoodnetwork",
+    x: "https://x.com/hoodnetwork",
+    linkedin: "https://linkedin.com/company/hoodnetwork"
+  }
 } as const;
 
 export const navLinks = [
