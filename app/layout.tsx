@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
+import { AppShell } from "@/components/layout/app-shell";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -32,11 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr" className="dark">
-      <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
-      </body>
+      <body><AppShell>{children}</AppShell></body>
     </html>
   );
 }
